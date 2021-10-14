@@ -7,11 +7,10 @@ let testBoucleSecondaire = true;
 let compteurBoucleFin = 0;
 let compteurFin = 0;
 let testFin = true;
+let nbreChaineTrouvee = 0;
 const lettreAdn = ['A', 'T', 'G', 'C'];
 adnPrincipale = prompt("Quelle est votre chaine principale ?"),
 adnSecondaire = prompt("Quelle est votre seconde chaine à tester ?");
-
-
 if (adnSecondaire < adnPrimaire)
 {
 	while ((compteurBouclePrincipale < adnPrincipale.length && (testBouclePrincipale == true))
@@ -21,6 +20,7 @@ if (adnSecondaire < adnPrimaire)
 			testBouclePrincipale = false;
 			console.log("Vous n'avez pas entré une chaine d'ADN correcte");
 		}
+		compteurBouclePrincipale++;
 	}
 	while ((compteurBoucleSecondaire < adnSecondaire.length && (testBoucleSecondaire == true))
 	{
@@ -29,6 +29,7 @@ if (adnSecondaire < adnPrimaire)
 			testBoucleSecondaire = false;
 			console.log("Vous n'avez pas entré une chaine d'ADN correcte");
 		}
+		compteurBoucleSecondaire++;
 	}
 }
 else
@@ -39,12 +40,21 @@ while (compteurBoucleFin < adnPrincipale.length)
 {
 	if (adnPrincipale[compteurBoucleFin] == adnSecondaire[0])
 	{
+		compteurFin = 0;
+		testFin = true;
 		while (compteurFin < adnSecondaire.length && testFin == true)
 		{
-			if ()
+			if (adnPrincipale[compteurBoucleFin+compteurFin] == adnSecondaire[compteurFin])
 			{
-				
+				compteurFin++;				
+			}
+			else
+			{
+				testFin = false;
 			}
 		}
+		if (compteurFin = adnSecondaire.length)
+		{
+			nbreChaineTrouvee++;
 	}
 }
