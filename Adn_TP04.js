@@ -22,7 +22,7 @@ if (adnSecondaire < adnPrimaire)
 		}
 		compteurBouclePrincipale++;
 	}
-	while ((compteurBoucleSecondaire < adnSecondaire.length && (testBoucleSecondaire == true))
+	while ((compteurBoucleSecondaire < adnSecondaire.length) && (testBoucleSecondaire == true))
 	{
 		if (lettreAdn.indexOf(adnSecondaire[compteurBoucleSecondaire]) == -1)
 		{
