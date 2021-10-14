@@ -13,7 +13,7 @@ adnPrincipale = prompt("Quelle est votre chaine principale ?"),
 adnSecondaire = prompt("Quelle est votre seconde chaine à tester ?");
 if (adnSecondaire < adnPrimaire)
 {
-	while ((compteurBouclePrincipale < adnPrincipale.length && (testBouclePrincipale == true))
+	while ()compteurBouclePrincipale < adnPrincipale.length) && (testBouclePrincipale == true))
 	{
 		if (lettreAdn.indexOf(adnPrincipale[compteurBouclePrincipale]) == -1)
 		{
