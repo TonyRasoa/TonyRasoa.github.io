@@ -38,17 +38,22 @@ else
 }
 while (compteurBoucleFin < adnPrincipale.length)
 {
-    if (adnPrincipale[compteurBoucleFin] == adnSecondaire[0]) {
+    if (adnPrincipale[compteurBoucleFin] == adnSecondaire[0]) 
+    {
         compteurFin = 0;
         testFin = true;
-        while (compteurFin < adnSecondaire.length && testFin == true) {
-            if (adnPrincipale[compteurBoucleFin + compteurFin] == adnSecondaire[compteurFin]) {
+        while (compteurFin < adnSecondaire.length && testFin == true)
+        {
+            if (adnPrincipale[compteurBoucleFin + compteurFin] == adnSecondaire[compteurFin]) 
+            {
                 compteurFin++;
-            } else {
+            }else 
+            {
                 testFin = false;
             }
         }
-        if (compteurFin = adnSecondaire.length) {
+        if (compteurFin = adnSecondaire.length) 
+        {
             nbreChaineTrouvee++;
         }
     }
