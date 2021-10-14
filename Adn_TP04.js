@@ -11,7 +11,7 @@ let nbreChaineTrouvee = 0;
 const lettreAdn = ['A', 'T', 'G', 'C'];
 adnPrincipale = prompt("Quelle est votre chaine principale ?"),
     adnSecondaire = prompt("Quelle est votre seconde chaine à tester ?");
-if (adnSecondaire < adnPrimaire)
+if (adnSecondaire < adnPrincipale)
 {
     while ((compteurBouclePrincipale < adnPrincipale.length) && (testBouclePrincipale == true))
     {
