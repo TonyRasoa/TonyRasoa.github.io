@@ -1,5 +1,6 @@
 
 const LETTREADN = ['A', 'T', 'G', 'C'];
+let bonjour;
 let compteurBouclePrincipale = 0;
 let testBouclePrincipale = true;
 let compteurBoucleSecondaire = 0;
