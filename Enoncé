@@ -1,7 +1,0 @@
-1. Le problème.
-    
-    On veut voir si une chaine d'ADN rentre dans un autre afin de prévoir si une maladie existe dans la chaine d'ADN. Par exemple si la première chaîne d'ADN est TACGTCG et que la deuxième est CG, le programme regarde combien de fois la chaine CG rentre PARFAITEMENT (en entière)  dans TACGTCG. Ici 2 fois.
-    
-2. La solution.
-    
-    L'utilisateur rentre une chaine d'ADN, composé uniquement des lettres A, T, G, C, qui sera parcourue grâce a une autre chaine d'ADN elle aussi rentré par l'utilisateur.
